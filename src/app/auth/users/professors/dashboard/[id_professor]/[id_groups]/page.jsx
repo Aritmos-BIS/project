@@ -5,9 +5,10 @@
 
 async function PageGroup({ params }) {
 
-    const students = await db.students.findMany({
+    const students = await db.users.findMany({
             where:{
                 id_group: params.id_groups,
+                isprofessor: false
             },
         });
 
