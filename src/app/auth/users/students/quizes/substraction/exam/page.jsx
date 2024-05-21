@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 import { quiz } from './data.js';
 
-const page = () => {
+const Page = () => {
   const router = useRouter()
   const { data: session } = useSession();
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -164,4 +164,4 @@ const page = () => {
     );
   };
   
-  export default page;
+  export default Page;
