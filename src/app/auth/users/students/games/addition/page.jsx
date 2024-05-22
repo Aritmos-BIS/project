@@ -19,8 +19,8 @@ const SumGame = () => {
   const correctGif1 = '/gifs/Ari_att.gif';
   const incorrectGif1 = '/gifs/Ari_danio.gif';
   const idleGif1 = '/gifs/Ari_idle.gif';
-  const correctGif2 = '/gifs/Plus_and_moin__danio.gif';
-  const incorrectGif2 = '/gifs/Plus_and_moin__att.gif';
+  const correctGif2 = '/gifs/Plus_and_moin_danio.gif';
+  const incorrectGif2 = '/gifs/Plus_and_moin_att.gif';
   const idleGif2 = '/gifs/Plus_and_moin_idle.gif';
 
   const generateRandomNumbers = () => {
