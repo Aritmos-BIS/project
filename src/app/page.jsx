@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className='shadow-black shadow-lg m-2 w-1/4 rounded-lg p-2 mx-2 flex flex-col items-center justify-center'>
           <h1></h1>
-          <img className='rounded-full w-11/12 mx-auto' src="/images/ernestof.jpg" alt="" />
+          <img className='rounded-full w-11/12 mx-auto' src="/images/ernestopic.jpg" alt="" />
           <h2>Jesús Ernesto Fierro Sandoval</h2>
         </div>
       </div>

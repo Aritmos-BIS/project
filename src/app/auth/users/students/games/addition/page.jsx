@@ -14,14 +14,14 @@ const SumGame = () => {
   const [gameover, setGameover] = useState(false);
   const [resultMessage, setResultMessage] = useState('');
   const [currentGif1, setCurrentGif1] = useState('/gifs/Ari_idle.gif');
-  const [currentGif2, setCurrentGif2] = useState('/gifs/PlusAndMoin_idle.gif');
+  const [currentGif2, setCurrentGif2] = useState('/gifs/Plus_and_moin_idle.gif');
 
   const correctGif1 = '/gifs/Ari_att.gif';
   const incorrectGif1 = '/gifs/Ari_danio.gif';
   const idleGif1 = '/gifs/Ari_idle.gif';
-  const correctGif2 = '/gifs/PlusAndMoin_danio.gif';
-  const incorrectGif2 = '/gifs/PlusAndMoin_att.gif';
-  const idleGif2 = '/gifs/PlusAndMoin_idle.gif';
+  const correctGif2 = '/gifs/Plus_and_moin__danio.gif';
+  const incorrectGif2 = '/gifs/Plus_and_moin__att.gif';
+  const idleGif2 = '/gifs/Plus_and_moin_idle.gif';
 
   const generateRandomNumbers = () => {
     const newNum1 = Math.floor(Math.random() * 20);
