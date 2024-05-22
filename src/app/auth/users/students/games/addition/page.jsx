@@ -21,7 +21,7 @@ const SumGame = () => {
   const idleGif1 = '/gifs/Ari_idle.gif';
   const correctGif2 = '/gifs/PlusAndMoin-danio.gif';
   const incorrectGif2 = '/gifs/PlusAndMoin-att.gif';
-  const idleGif2 = '/gifs/PlusAndMoin-idle.gif';
+  const idleGif2 = '/gifs/PlusAndMoin_idle.gif';
 
   const generateRandomNumbers = () => {
     const newNum1 = Math.floor(Math.random() * 20);
