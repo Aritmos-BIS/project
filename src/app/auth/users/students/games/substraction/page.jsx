@@ -108,7 +108,7 @@ const SumGame = () => {
 
   return (
     <div className="container mx-auto text-center text-white">
-      <h1 className="text-6xl text-white font-semibold mb-4">Juego de las sumas</h1>
+      <h1 className="text-6xl text-white font-semibold mb-4">Juego de las restas</h1>
       
       <div className="mx-auto flex justify-center items-center space-between py-3">
         <Image
