@@ -14,7 +14,7 @@ const SumGame = () => {
   const [gameover, setGameover] = useState(false);
   const [resultMessage, setResultMessage] = useState('');
   const [currentGif1, setCurrentGif1] = useState('/gifs/Ari_idle.gif');
-  const [currentGif2, setCurrentGif2] = useState('/gifs/PlusAndMoin-idle.gif');
+  const [currentGif2, setCurrentGif2] = useState('/gifs/PlusAndMoin_idle.gif');
 
   const correctGif1 = '/gifs/Ari_att.gif';
   const incorrectGif1 = '/gifs/Ari_danio.gif';
